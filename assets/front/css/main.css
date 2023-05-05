@@ -94,3 +94,16 @@
     line-height: 1.2;
     text-decoration: none;
 }
+
+@media (max-width: 767px) {
+    .loop-services ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-title, .site-name {
+        display: none;
+    }
+}
